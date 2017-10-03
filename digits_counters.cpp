@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
 	unsigned long long int num;
+	cout << "please input an non-negative integer (19 digits at most): ";
 	cin >> num;
 	int digits = 1;
 	while (num / 10) 
