@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int num;
+	unsigned long long int num;
 	cin >> num;
 	int digits = 1;
 	while (num / 10) 
